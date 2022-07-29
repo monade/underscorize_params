@@ -1,33 +1,11 @@
 require 'spec_helper'
 
-# describe 'controller' do
-#   let(:params_hash) do
-#     {
-#       userId: 1,
-#       firstName: 'John',
-#       lastName: 'Doe',
-#     }
-#   end
-#
-#   describe PeopleController, type: :controller do
-#     let(:params) do
-#       ActionController::Parameters.new(params_hash)
-#     end
-#
-#     it 'should create a person class' do
-#       person = subject.create
-#
-#       expect(person).to be_a(String)
-#     end
-#   end
-# end
-
 describe PeopleController, type: :controller do
   let(:params_hash) do
     {
       userId: 1,
       firstName: 'John',
-      lastName: 'Doe',
+      lastName: 'Doe'
     }
   end
 

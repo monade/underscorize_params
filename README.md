@@ -1,5 +1,13 @@
 # underscorize_params
 
+## Installation
+
+Add the Gem into your Gemfile
+
+```ruby
+gem 'underscorize_params', github: 'monade/underscorize_params'
+```
+
 This gem allows you to send params to a Controller's action in camel case.
 It gets included inside ActionController::Base
 
