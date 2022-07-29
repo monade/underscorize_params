@@ -12,8 +12,8 @@ Suppose you have these Controller and Model:
 models/user.rb
 ```ruby
 class User < ActiveRecord::Base
-  attribute :first_name, :string
-  attribute :last_name, :string
+  attribute :first_name, :String
+  attribute :last_name, :String
 end
 ```
 
