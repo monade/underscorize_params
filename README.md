@@ -57,6 +57,6 @@ About Monade
 
 ![monade](https://monade.io/wp-content/uploads/2021/06/monadelogo.png)
 
-Paramoid is maintained by [mònade srl](https://monade.io/en/home-en/).
+underscorize_params is maintained by [mònade srl](https://monade.io/en/home-en/).
 
 We <3 open source software. [Contact us](https://monade.io/en/contact-us/) for your next project!
