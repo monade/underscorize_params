@@ -42,7 +42,7 @@ this gem allows you to call this controller's api with parameters in camel case,
 
 ```typescript
 const params = {
-  firstName: 'Friedrich'
+  firstName: 'Friedrich',
   lastName: 'Nietzsche'
 }'
 
