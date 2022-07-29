@@ -52,7 +52,7 @@ this gem allows you to call this controller's api with parameters in camel case,
 const params = {
   firstName: 'Friedrich',
   lastName: 'Nietzsche'
-}'
+}
 
 axios.post('/users', params)
 ```
