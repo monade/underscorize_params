@@ -52,6 +52,10 @@ axios.post('/users', params)
 the gem's job is very simple, received parameters get transformed into snake case in the **before_action** hook.
 Check out the code to find out, is very simple!
 
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
 About Monade
 ----------------
 
