@@ -29,19 +29,19 @@ controllers/users_controller.rb
 ```ruby
 class UsersController < ActionController::Base
   def create
-    @user = User.create create_params
+    @user = User.new create_params
 
     if @user.save
       render json: @user
     else
-      render_errors @user.errors
+      render json: @user.errors
     end
   end
 
   private
 
   def create_params
-    params.permit(:firt_name, :last_name)
+    params.permit(:first_name, :last_name)
   end
 end
 ```
