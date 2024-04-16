@@ -5,4 +5,5 @@ gemspec
 
 gem 'actionpack', ENV['CI_RAILS_VERSION'] || '>= 0.0'
 gem 'activesupport', ENV['CI_RAILS_VERSION'] || '>= 0.0'
+gem 'mutex_m'
 gem 'typeprof'
