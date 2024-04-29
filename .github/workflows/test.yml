@@ -1,5 +1,9 @@
 name: Tests
-on: [push, pull_request]
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
   test:
     uses: monade/reusable-workflows/.github/workflows/monade-ruby-rails-gems-spec.yml@main
